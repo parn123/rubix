@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>rubix</title>
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <!-- css style sheets , IN THIS ORDER-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- bootstrap scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <!-- favicon -->
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/1127d021e5.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <section id="title">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="">rubix</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#buying">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Download</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- title -->
+    <div class="row">
+      <div class="col-lg-6">
+        <h1>Got a rubik's cube and don't know what to do?</h1>
+        <h2>Don't worry we are here to help you.</h2>
+        <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+        <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+      </div>
+      <div class="col-lg-6">
+        <img class="main-image" src="images/rubiks-2-512.webp" alt="">
+      </div>
+    </div>
+
+  </section>
+  <!-- features  -->
+  <section id="features">
+    <div class="row">
+      <div class="col-lg-4 feature-box">
+        <i class="fas fa-cube fa-4x feature-image"></i>
+        <h3>Learn beautiful patterns</h3>
+        <p>The algoriths for the best patterns ,ready to be applied on a solved cube.</p>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <i class="fas fa-clock fa-4x feature-image"></i>
+        <h3>Time yourself</h3>
+        <p>See your progress by timing yourself everytime you solve.</p>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <i class="fas fa-shopping-cart fa-4x feature-image"></i>
+        <h3>Buy the best cubes</h3>
+        <p>Not satisfied with the performance of your current cube ? Buy the best selling cubes available online.</p>
+      </div>
+    </div>
+  </section>
+  <!-- patterns -->
+  <section id="patterns">
+    <section class="heading-patterns">
+      <h1 class="heading-patterns">Patterns</h1>
+    </section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <section class="cubepattern">
+            <div class="row">
+              <div class="col">
+                <img class="pattern" src="images/solve2.png" alt="">
+              </div>
+              <div class="col">
+                <h3 class="pattern-name">checker-board</h3>
+                <h4>Algorithm : M2 E2 S2</h4>
+                <img class="arrow" src="images/506-256.png" alt="">
+              </div>
+              <div class="col">
+                <img class="pattern" src="images/the-easy-checkerboard.svg" alt="">
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="carousel-item">
+          <section class="cubepattern">
+            <div class="row">
+              <div class="col">
+                <img class="pattern" src="images/solve2.png" alt="">
+              </div>
+              <div class="col">
+                <h3 class="pattern-name">six-spots</h3>
+                <h4>Algorithm : U D' R L' F B' U D'</h4>
+                <img class="arrow" src="images/506-256.png" alt="">
+              </div>
+              <div class="col">
+                <img class="pattern" src="images/six-spots.svg" alt="">
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="carousel-item">
+          <section class="cubepattern">
+            <div class="row">
+              <div class="col">
+                <img class="pattern" src="images/solve2.png" alt="">
+              </div>
+              <div class="col">
+                <h3 class="pattern-name">four-spots</h3>
+                <h4>Algorithm : F2 B2 U D' R2 L2 U D'</h4>
+                <img class="arrow" src="images/506-256.png" alt="">
+              </div>
+              <div class="col">
+                <img class="pattern" src="images/four-spots.svg" alt="">
+              </div>
+            </div>
+          </section>
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <!-- timer -->
+  <section id="timer">
+    <div class="row container fluid timerrow">
+      <div class="col-lg-3">
+        <img src="images/solver2.jpg" class="solver" alt="">
+      </div>
+      <div class="col-lg-6">
+    <h4 class="swheading">What are you waiting for ?</h4>
+  <center><section id="res"><span id="min">0</span> : <span id="sec">00</span> : <span id="msec">000</span></section></center>
+    <form action="" method="post">
+        <input type="button" onclick="startWatch()" value="START" />
+        <input type="button" onclick="stopWatch()" value="STOP" />
+        <input type="button" onclick="resetWatch()" value="ZERO" />
+    </form>
+    <p></p>
+
+    <script type="text/javascript">
+    var timer = null;
+    var min_txt = document.getElementById("min");
+    var min = Number(min_txt.innerHTML);
+    var sec_txt = document.getElementById("sec");
+    var sec = Number(sec_txt.innerHTML);
+    var msec_txt = document.getElementById("msec");
+    var msec = Number(msec_txt.innerHTML);
+    function stopTimeMilliseconds(timer) {
+        if (timer) {
+            clearInterval(timer);
+            return timer;
+        }
+        else return timer;
+    }
+    function startTimeMilliseconds() {
+        var currDate = new Date();
+        return currDate.getTime();
+    }
+    function getElapsedTimeMilliseconds(startMilliseconds) {
+        if (startMilliseconds > 0) {
+            var currDate = new Date();
+            elapsedMilliseconds = (currDate.getTime() - startMilliseconds);
+            return elapsedMilliseconds;
+        }
+     else {
+        return elapsedMilliseconds = 0;
+        }
+    }
+    function startWatch() {
+        // START TIMER
+        timer = stopTimeMilliseconds(timer);
+        var startMilliseconds = startTimeMilliseconds();
+        timer = setInterval(function() {
+            var elapsedMilliseconds = getElapsedTimeMilliseconds(startMilliseconds);
+            if (msec < 10) {
+                msec_txt.innerHTML = "00" + msec;
+            }
+            else if (msec < 100) {
+                msec_txt.innerHTML = "0" + msec;
+            }
+            else {
+                msec_txt.innerHTML = msec;
+            }
+            if (sec < 10) {
+                sec_txt.innerHTML = "0" + sec;
+            }
+            else {
+                sec_txt.innerHTML = sec;
+            }
+            min_txt.innerHTML = min;
+            msec = elapsedMilliseconds;
+            if (min >= 59 && sec >=59 && msec > 900) {
+                timer = stopTimeMilliseconds(timer);
+                return true;
+            }
+            if (sec > 59) {
+                sec = 0;
+                min++;
+            }
+            if (msec > 999) {
+                msec = 0;
+                sec++;
+                startWatch();
+            }
+        }, 10);
+    }
+    function stopWatch() {
+        // STOP TIMER
+        timer = stopTimeMilliseconds(timer);
+        return true;
+    }
+    function resetWatch() {
+        // REZERO TIMER
+        timer = stopTimeMilliseconds(timer);
+        msec_txt.innerHTML = "000";
+        msec = 0;
+        sec_txt.innerHTML = "00";
+        sec = 0;
+        min_txt.innerHTML = "0";
+        min = 0;
+        return true;
+    }
+</script>
+</div>
+<div class="col-lg-3">
+  <img src="images/clock3.webp" alt="">
+</div>
+</div>
+  </section>
+  <!-- buying -->
+  <section id="buying">
+    <br><br><br>
+    <h1>Check this out...</h1>
+    <div class="card-deck" class="row">
+      <div class="card col-lg-3">
+        <img class="card-img-top" src="images/buy1.webp" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Amazon.in</h5>
+          <p class="card-text">CubeleloQiYi Sail W 3x3 Black Puzzle Speed Cube Magic Cube Puzzle Toy
+            by Cubelelo.<br>M.R.P.: <strike>₹ 599.00</strike><br>Price: ₹ 279.00</p>
+          <a href="https://www.amazon.in/CubeleloQiYi-Black-Puzzle-Speed-Magic/dp/B081V1X7T2/ref=sr_1_46?dchild=1&keywords=rubiks+cube&qid=1588968332&sr=8-46" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+      <div class="card col-lg-3">
+        <img class="card-img-top" src="images/buy2.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Flipcart.com</h5>
+          <p class="card-text">Shengshou 3x3 Silver Mirror Cube (1 Pieces)<br>M.R.P.:₹ 699.00<br>Price: ₹ 225.00 <strike></strike></p>
+          <a href="https://www.flipkart.com/shengshou-3x3-silver-mirror-cube/p/itmdqjpyyhevueuu?pid=PUZDQJZYJ6GZ5R4P&lid=LSTPUZDQJZYJ6GZ5R4PX5U3CL&marketplace=FLIPKART&srno=s_1_2&otracker=search&otracker1=search&fm=SEARCH&iid=d13f7350-9098-4842-8623-92e17987c751.PUZDQJZYJ6GZ5R4P.SEARCH&ppt=sp&ppn=sp&ssid=xn2tj1uktc0000001588971814325&qH=313bb3383043ad79"
+            class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+      <div class="card col-lg-3">
+        <img class="card-img-top" src="images/buy3.webp" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Amazon.in</h5>
+          <p class="card-text">D ETERNAL QiYi Jelly Edition Warrior W 3x3 Transperent Stickerless Cube Puzzle
+            by D ETERNAL.<br>M.R.P.: <strike>₹ 799.00</strike><br>Price: ₹ 349.00 </p>
+          <a href="https://www.amazon.in/ETERNAL-Warrior-Transperent-Stickerless-Puzzle/dp/B07XX6PQCZ/ref=sr_1_21?dchild=1&keywords=rubiks+cube&qid=1588968332&sr=8-21" class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+      <div class="card col-lg-3">
+        <img class="card-img-top" src="images/buy4.jpeg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Flipcart.com</h5>
+          <p class="card-text">Cubelelo Magic Cube Gear 3x3 v1 Black (1 Pieces)<br>M.R.P.: <strike>₹ 899.00</strike><br>Price: ₹ 226.00</p>
+          <a href="https://www.flipkart.com/cubelelo-magic-cube-gear-3x3-v1-black/p/itmegpaqvaq4hzaz?pid=PUZEGPAQMG7ZM3PX&lid=LSTPUZEGPAQMG7ZM3PXIKYZI2&marketplace=FLIPKART&srno=s_1_19&otracker=search&otracker1=search&fm=SEARCH&iid=d13f7350-9098-4842-8623-92e17987c751.PUZEGPAQMG7ZM3PX.SEARCH&ppt=sp&ppn=sp&ssid=xn2tj1uktc0000001588971814325&qH=313bb3383043ad79"
+            class="btn btn-primary">Buy Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="copyright">
+  <p class="cr">@copyright 2020 rubix</p>
+  </section>
+
+</body>
+
+</html>
